@@ -12,7 +12,7 @@ npm run start
 
 #### Posterior a la instalación
  * Agregar las siguientes lineas al archivo _tailwind.config.js_
-    ```json
+    ```js
     module.exports = {
     content: [
         "./src/**/*.{js,jsx,ts,tsx}",
