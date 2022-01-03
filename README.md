@@ -6,8 +6,30 @@ npx create-react-app tailwindcss-react
 cd tailwindcss-react
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+npm install react-scripts@latest
 npm run start
 ```
+
+#### Posterior a la instalación
+ * Agregar las siguientes lineas al archivo _tailwind.config.js_
+    ```json
+    module.exports = {
+    content: [
+        "./src/**/*.{js,jsx,ts,tsx}",
+    ],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+    }
+    ```
+
+* Agregar dependencias css al archivo _src/index.css_
+    ```css
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    ```
 ### Clonar e utilizar este proyecto
 ```sh
 npm i
