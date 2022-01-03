@@ -14,13 +14,13 @@ npm run start
  * Agregar las siguientes lineas al archivo _tailwind.config.js_
     ```js
     module.exports = {
-    content: [
-        "./src/**/*.{js,jsx,ts,tsx}",
-    ],
-    theme: {
-        extend: {},
-    },
-    plugins: [],
+        content: [
+            "./src/**/*.{js,jsx,ts,tsx}",
+        ],
+        theme: {
+            extend: {},
+        },
+        plugins: [],
     }
     ```
 
