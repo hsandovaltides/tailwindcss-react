@@ -1,21 +1,26 @@
 # TAILWINDCSS-REACT
 
 ### Crear Proyecto desde cero
-1. npx create-react-app tailwindcss-react
-2. cd tailwindcss-react
-3. npm install -D tailwindcss postcss autoprefixer
-4. npx tailwindcss init -p
-5. npm run start
-
-### Clonar e utilizar este proyecto
-1. Clonar
-2. npm i
-3. npm run start
-
+```sh
+npx create-react-app tailwindcss-react
+cd tailwindcss-react
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm run start
 ```
+### Clonar e utilizar este proyecto
+```sh
+npm i
+npm run start
+```
+
+
 NOTA:
 Este proyecto utiliza las dependencias:
-@heroicons/react
-@headlessui/react
-```
+
+| Plugins |
+| ------ |
+[@heroicons/react](https://www.npmjs.com/package/@heroicons/react)
+[@headlessui/react](https://www.npmjs.com/package/@headlessui/react)
+
 
