@@ -40,9 +40,9 @@ npm run start
 NOTA:
 Este proyecto utiliza las dependencias:
 
-| Plugins |
-| ------ |
-[@heroicons/react](https://www.npmjs.com/package/@heroicons/react)
-[@headlessui/react](https://www.npmjs.com/package/@headlessui/react)
+| Plugins | Instalar |
+| ------ | ------ |
+[@heroicons/react](https://www.npmjs.com/package/@heroicons/react) | ``` npm i @heroicons/react ```
+[@headlessui/react](https://www.npmjs.com/package/@headlessui/react) | ``` npm i @headlessui/react ```
 
 
